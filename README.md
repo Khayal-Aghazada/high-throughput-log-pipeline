@@ -27,10 +27,3 @@ The architectural diagram below highlights the optimized asynchronous strategy, 
 3. **Non-Blocking IO Boundaries**: When threshold spikes trigger alerts, notifications leverage `asyncio` loop routines to dispatch HTTP updates without pausing data streams.
 
 ---
-
-## 🚀 Step-by-Step Execution Guide
-
-### 1. Installation & Environment Setup
-Ensure your local workspace has packages safely installed:
-```bash
-pip install -r requirements.txt
