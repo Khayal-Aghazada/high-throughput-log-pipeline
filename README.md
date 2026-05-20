@@ -19,7 +19,7 @@ An enterprise-grade data engineering pipeline built in Python to tackle CPU-boun
 
 The architectural diagram below highlights the optimized asynchronous strategy, taking raw operational inputs and applying a multi-process map strategy to bypass structural bottlenecks.
 
-<Image src="image_agent_tag_18091533202289355687" alt="Data Pipeline Architecture" caption="High-Throughput Parallel Pipeline Topology" />
+<Image src="images.jpg" alt="Data Pipeline Architecture" caption="High-Throughput Parallel Pipeline Topology" />
 
 ### How It Works Under the Hood
 1. **Dynamic Byte-Offset Chunking**: Rather than loading multi-gigabyte log chunks into RAM, the engine pre-calculates strict byte boundaries across the source document file size.
